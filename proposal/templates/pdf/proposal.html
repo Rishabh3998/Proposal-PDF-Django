@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>Title</title>
+        <style type="text/css">
+            body {
+                font-weight: 200;
+                font-size: 14px;
+            }
+            .header {
+                font-size: 20px;
+                font-weight: 100;
+                text-align: center;
+                color: #007cae;
+            }
+            .headerImage {
+                background-color: transparent;
+                justify-content: center;
+                display: flex;
+                text-align: center;
+            }
+            .title {
+                font-size: 22px;
+                font-weight: 100;
+                padding: 10px 20px 0px 20px;  
+            }
+            .title span {
+                color: #007cae;
+            }
+            .details {
+                padding: 60px 80px 0px 80px;
+                text-align: left !important;
+                /*margin-left: 40%;*/
+            }
+            .hrItem {
+                border: none;
+                height: 1px;
+                /* Set the hr color */
+                color: #333; /* old IE */
+                background-color: #fff; /* Modern Browsers */
+            }
+        </style>
+    </head>
+    <body>
+        <div class='wrapper'>
+            <div class='header'>
+                <p class='title'>Proposal #{{ proposal_id }} </p>
+            </div>
+            <div class='headerImage'>
+                <img src="static/Green.jpg" width="300">
+            </div>
+        <div>
+        <div class='details'>
+            {{ today }} <br/><br/>
+
+            Board of Directors, <br/><br/>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ratione delectus illo nam, et pariatur sunt sit quo officia, libero voluptate voluptatibus. Accusamus alias vero nobis. Assumenda omnis, repudiandae voluptate ipsa natus recusandae fuga nisi iste optio blanditiis minus corrupti aut! Tempore impedit tempora magni? Molestiae repudiandae aut obcaecati possimus sit nulla ipsam neque ut.
+            <br/>
+            <br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est qui distinctio ratione eaque repellendus ut, ducimus et soluta. Perferendis, corrupti.
+            <br/>
+            <br/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolor dicta dolore, fugit ipsum similique?
+            <br/>
+            <br/>
+            Warmly, I
+            <br/>
+            <br/>
+            {{ company_personal }} <br/>
+            {{ Position }} <br/>
+            {{ landscape_company_name }}
+        </div>
+    </div>
+    </body>
+</html>
